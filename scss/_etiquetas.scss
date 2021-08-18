@@ -1,0 +1,56 @@
+
+$fuenteProyecto:"mundo Peludo";
+$fuenteProyectoParrafos:"parrafos";
+$transicion:all 1s;
+$violeta:#3c096c;   
+$naranja:#ff9e00;
+h1{
+    animation-delay: 1.5s;
+}
+body{
+    font-family:$fuenteProyecto;
+    
+}
+
+p{
+    font-family: $fuenteProyectoParrafos;
+}
+
+footer p{
+    font-family: $fuenteProyecto;
+}
+
+/* Animaciones */
+img{
+    
+    transition: $transicion;
+}
+img:hover{
+    
+    transform: scale(1.1,1.1);
+    
+}
+/*Footer*/
+footer div ul{
+    list-style: none;
+    text-decoration: none;
+    
+
+}
+
+footer a:link{
+    text-decoration: none;
+    color:$naranja;
+
+}
+
+footer a:visited{
+
+    text-decoration: none;
+    color:$naranja;
+}
+
+
+
+
+

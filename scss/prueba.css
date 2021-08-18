@@ -1,0 +1,181 @@
+h1 {
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
+}
+
+body {
+  font-family: "mundo Peludo";
+}
+
+p {
+  font-family: "parrafos";
+}
+
+footer p {
+  font-family: "mundo Peludo";
+}
+
+/* Animaciones */
+img {
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+img:hover {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+}
+
+/*Footer*/
+footer div ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+footer a:link {
+  text-decoration: none;
+  color: #ff9e00;
+}
+
+footer a:visited {
+  text-decoration: none;
+  color: #ff9e00;
+}
+
+#portada img {
+  width: 100%;
+}
+
+#a-Botones {
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+#a-Botones:hover {
+  -webkit-transform: rotateZ(-30deg);
+          transform: rotateZ(-30deg);
+}
+
+/*......VARIABLES....*/
+/*......ETIQUETAS....*/
+@font-face {
+  font-family: "mundo Peludo";
+  src: url(../fuente/Pacifico-Regular.ttf);
+}
+
+@font-face {
+  font-family: "parrafos";
+  src: url(../fuente/PTSerif-Regular.ttf);
+}
+
+/*......CLASES....*/
+/*...Mapas / EACH...*/
+.c-violeta {
+  color: #3c096c;
+}
+
+.bg-violeta {
+  background-color: #3c096c;
+}
+
+.c-naranja {
+  color: #ff9e00;
+}
+
+.bg-naranja {
+  background-color: #ff9e00;
+}
+
+.c-blanco {
+  color: white;
+}
+
+.bg-blanco {
+  background-color: white;
+}
+
+.main__Portada__margen {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+h1 {
+  font-family: "mundo Peludo";
+}
+
+h2 {
+  font-family: "mundo Peludo";
+}
+
+h3 {
+  font-family: "mundo Peludo";
+}
+
+h4 {
+  font-family: "mundo Peludo";
+}
+
+h5 {
+  font-family: "mundo Peludo";
+}
+
+h6 {
+  font-family: "mundo Peludo";
+}
+
+/*........Bloques.....*/
+.main__Portada-SobreNosotros_margen {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+.bgBotones__naranja {
+  background-color: #ff9e00;
+}
+
+.botones__bordeRedondeado {
+  border-radius: 20px;
+}
+
+.footer__iconos {
+  font-size: 2rem;
+}
+
+.footer__backGround {
+  background: radial-gradient(#3c096c, #ff9e00);
+}
+
+.main__carrusel, .div__carrusel {
+  background-color: white;
+  margin: auto;
+}
+
+.main__carrusel {
+  width: 75%;
+  height: 40rem;
+}
+
+.main__carrusel img {
+  width: 75%;
+  height: 37.5rem;
+}
+
+.div__carrusel {
+  width: 50%;
+  height: 20rem;
+}
+
+.div__carrusel img {
+  width: 50%;
+  height: 20rem;
+}
+
+.dropdown__menu--modifier {
+  min-width: 3rem;
+  font-size: 0.9rem;
+}
+
+.iframeBanio {
+  width: 50%;
+}
+/*# sourceMappingURL=prueba.css.map */

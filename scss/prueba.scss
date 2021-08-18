@@ -1,0 +1,144 @@
+@import 'etiquetas';
+@import 'ids';
+
+/*......VARIABLES....*/
+
+$violeta:#3c096c;   
+$naranja:#ff9e00;
+$blanco: white;
+$fuenteProyecto:"mundo Peludo";
+$fuenteProyectoParrafos:"parrafos";
+$transicion:all 1s;
+
+/*......ETIQUETAS....*/
+
+
+
+@font-face {
+    font-family: "mundo Peludo";
+    src: url(../fuente/Pacifico-Regular.ttf);
+}
+
+@font-face {
+    font-family: "parrafos";
+    src: url(../fuente/PTSerif-Regular.ttf);
+}
+
+
+
+/*......CLASES....*/
+
+    /*...Mapas / EACH...*/
+
+$mapaColores:(
+    violeta: $violeta,
+    naranja:$naranja,
+    blanco:$blanco
+    
+);
+
+@each $nameColor, $color in $mapaColores{
+
+    .c-#{$nameColor}{
+        color: $color;
+    }
+
+    .bg-#{$nameColor}{
+        background-color: $color;
+    }
+}
+
+
+@each $rem in 5rem{
+    .main__Portada__margen{
+        margin-top: $rem;
+        margin-bottom: $rem;
+    }
+
+    
+}
+
+@for $var from 1 to 7 {
+
+    h#{$var}{
+        font-family: $fuenteProyecto;
+    }
+    
+}
+
+
+
+/*........Bloques.....*/
+.main__Portada-SobreNosotros_margen{
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.bgBotones__naranja{
+    background-color: $naranja;  
+}
+
+.botones__bordeRedondeado{
+    border-radius: 20px;
+}
+
+.footer__iconos{
+    font-size: 2rem;
+}
+
+@mixin colores__footer($color1,$color2){
+    background: radial-gradient($color1,$color2);
+}
+.footer__backGround{
+
+    @include colores__footer($violeta, $naranja);
+
+}
+
+%carrusel__bgColor__margen{
+    background-color: white;
+    margin:auto;
+}
+
+@mixin medidas__carrusel__ppl($width,$height){
+    width: $width;
+    height: $height;
+}
+.main__carrusel{
+    @extend %carrusel__bgColor__margen;
+    @include medidas__carrusel__ppl(75%,40rem);
+    
+    
+}
+
+.main__carrusel{
+    img{
+    width: 75%;
+    height: 37.5rem;
+    }
+}
+
+.div__carrusel{
+    @extend %carrusel__bgColor__margen;
+    @include medidas__carrusel__ppl(50%,20rem);
+
+    
+}
+.div__carrusel{ 
+    img{
+    width: 50%;
+    height: 20rem;
+    }
+}
+
+
+.dropdown__menu--modifier{
+    min-width: 3rem;
+    font-size: 0.9rem;
+}
+
+.iframeBanio{
+    width: 50%;
+}
+
+
