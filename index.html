@@ -176,12 +176,12 @@
 
         <section class="row" id="ubicacion">
             
-            <div class="col-12 col-lg-6 mt-3 h-50">
+            <div class="col-12 col-lg-6 mt-3 h-50 d-flex justify-content-center">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.1898397952345!2d-58.51446858505238!3d-34.599360764773905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb7cb900aecc1%3A0x2ce75c056e0a7710!2sPlaza%20Arenales!5e0!3m2!1ses!2sar!4v1629375888141!5m2!1ses!2sar" width="500" height="750" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
             </div>
 
-            <div class="col-12 col-lg-6 order-lg-first">
+            <div class="col-12 col-lg-6 order-first">
             <div class="col-12 main__Portada__margen">
 
                 <h1 class="display-1 text-center text-lg-start fw-bold animate__animated animate__rubberBand animationDelay "> <span class="c-naranja"> Nuestra </span> <span class="c-violeta"> Ubicación </span></h1>
@@ -192,7 +192,7 @@
 
             </div>
 
-            <div class="col-12 main__Portada__margen d-flex justify-content-center justify-content-lg-start">
+            <div class="col-12 main__Portada__margen d-flex justify-content-center justify-content-lg-center">
                 <a href="./pages/sobreNosotros.html" class="btn btn-lg bgBotones__naranja c-violeta botones__bordeRedondeado" id="a-Botones">Sobre Nosotros</a>
 
 
@@ -203,8 +203,8 @@
 <!-- Fooooooterrrrrr -->
     <footer class="container-fluid footer__backGround">
         <div class="container border-bottom p-5 ">
-            <div class="row c-naranja d-flex justify-content-center align-items-center">
-                <div class="col-12 col-sm-6 col-lg-4 d-flex flex-column text-start justify-content-between align-items-center">
+            <div class="row c-naranja d-flex justify-content-around align-items-center">
+                <div class="col-12 col-sm-6 col-lg-4 d-flex flex-column text-center justify-content-between align-items-center">
                     <nav>
                         <ul>
                             <li class="c-violeta">Navegación</li>
@@ -219,11 +219,8 @@
                         </ul>
                     </nav>
                 </div>
-                <div class="col-12 col-sm-6 col-lg-2 d-flex flex-column text-center justify-content-evenly align-items-center">
-                    <p class="col-12"> César Pérez &copy 2021, Todos los derechos reservados.</p>
-                    <p class=" col-12">mundopeludo@gmail.com</p>
-                </div>
-                <div class="col-12 col-lg-3 ">
+                
+                <div class="col-12 col-lg-3 marginRedes">
                     <h4 class="col-12 text-center text-lg-center">Nuestras Redes </h4>
                     <div class="col-12 d-flex flex-row justify-content-center justify-content-lg-center footer__iconos">
                         <a href="https://www.instagram.com/"><i class="bi-instagram mx-1"></i></a>
@@ -234,16 +231,21 @@
                 </div>
                 <div class="col-12 col-lg-3 my-6 p-3">
                     <h4 class="col-12 my-3 text-center text-lg-start"> Subscribite a nuestro Newsletter</h4>
-                    <form action="get" class="row col-12 text-center">
-                        <div class="col-8">
+                    <form action="get" class="row col-12 text-center d-flex justify-content-center">
+                        <div class="col-12">
                             <input type="email" class="form-control mx-5 mx-lg-0" id="exampleFormControlInput1" placeholder="name@example.com"/>
                         </div>
-                        <div class="col-4">
+                        <div class="col-12 my-1 mx-4 mx-md-0 mx-lg-0">
                             <button  type="submit" class="btn btn-lg bgBotones__naranja c-violeta botones__bordeRedondeado" id="a-Botones">Enviar</button>
                         </div>
                         
                     </form>
                 </div>
+            </div>
+            <div class="row c-violeta d-flex justify-content-center align-items-center">
+            <div class="col-12 d-flex flex-column text-center justify-content-evenly align-items-center">
+                <p class="col-12"> César Pérez &copy 2021, Todos los derechos reservados.</p>
+            </div>
             </div>
         </div>
     </footer>

@@ -46,6 +46,10 @@ footer a:visited {
   width: 100%;
 }
 
+#ubicacion img {
+  width: 100%;
+}
+
 #a-Botones {
   -webkit-transition: all 1s;
   transition: all 1s;
@@ -177,5 +181,16 @@ h6 {
 
 .iframeBanio {
   width: 50%;
+}
+
+.marginRedes {
+  margin-right: 5rem;
+}
+
+@media (max-width: 990px) {
+  .marginRedes {
+    margin-left: 2rem;
+    margin-right: 0rem;
+  }
 }
 /*# sourceMappingURL=prueba.css.map */
