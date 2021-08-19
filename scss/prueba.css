@@ -127,6 +127,10 @@ h6 {
   font-family: "mundo Peludo";
 }
 
+.fuenteCarrito {
+  font-family: "parrafos";
+}
+
 /*........Bloques.....*/
 .main__Portada-SobreNosotros_margen {
   margin-top: 10rem;
