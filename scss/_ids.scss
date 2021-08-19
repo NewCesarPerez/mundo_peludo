@@ -6,6 +6,12 @@ $transicion:all 1s;
     }
 }
 
+#ubicacion{
+    img{
+        width: 100%;
+        }   
+}
+
 #a-Botones{
     transition: $transicion;
 }
