@@ -60,6 +60,29 @@ footer a:visited {
           transform: rotateZ(-30deg);
 }
 
+#boton__pagar {
+  margin-left: 9.5rem;
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+  #boton__pagar {
+    margin-left: 4.5rem;
+  }
+}
+
+@media (max-width: 991px) and (min-width: 769px) {
+  #boton__pagar {
+    margin-left: 0rem;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 0px) {
+  #boton__pagar {
+    margin-left: 0rem;
+    margin-top: 1rem;
+  }
+}
+
 /*......VARIABLES....*/
 /*......ETIQUETAS....*/
 @font-face {
@@ -153,7 +176,7 @@ h6 {
   background: radial-gradient(#3c096c, #ff9e00);
 }
 
-.main__carrusel, .div__carrusel {
+.main__carrusel, .banio__carrusel, .div__carrusel {
   background-color: white;
   margin: auto;
 }
@@ -166,6 +189,16 @@ h6 {
 .main__carrusel img {
   width: 75%;
   height: 37.5rem;
+}
+
+.banio__carrusel {
+  width: 100%;
+  height: 50rem;
+}
+
+.banio__carrusel img {
+  width: 100%;
+  height: 50rem;
 }
 
 .div__carrusel {
@@ -208,5 +241,11 @@ h6 {
   #copyRight {
     margin-left: 1rem;
   }
+}
+
+.img__banio {
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
 }
 /*# sourceMappingURL=prueba.css.map */

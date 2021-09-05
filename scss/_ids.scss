@@ -20,3 +20,35 @@ $transicion:all 1s;
     transform: rotateZ(-30deg);
 }
 
+
+#boton__pagar{
+
+    margin-left: 9.5rem;
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 992px){
+    #boton__pagar{
+    margin-left: 4.5rem; 
+    }  
+}
+
+@media(max-width: 991px) and (min-width: 769px)
+
+{
+
+    #boton__pagar{
+        margin-left: 0rem;
+        
+    }
+}
+@media(max-width: 768px) and (min-width: 0px){
+
+
+    #boton__pagar{
+        margin-left: 0rem;
+        margin-top: 1rem;
+    }
+}
+    
+
+

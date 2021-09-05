@@ -15,7 +15,7 @@
 </head>
 <body>
     <header > 
-
+<!-- Navbar: Comienzo-->
         <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom c-violeta">
             <div class="container-fluid "> 
                 <a class="navbar-brand fw-bold animate__animated animate__rubberBand" href="../pages/baño.html"><span class="c-naranja">Baños</span><span class="c-violeta"> divertidos</span></a>
@@ -48,12 +48,40 @@
             </div>
         </nav>    
     </header>
+<!-- Navbar: Final-->
 
+<!-- Carrousel: Comienzo-->
     <main class="container">
         <section class="row" id="portada">
             <div class="col-12 col-lg-6 mt-3 h-50">
-                <img class="h-75" src="../imagenes/banio_divertido.jpg" alt="imagen familia">
-            </div>
+                <div class="banio__carrusel">
+                        <div id="carouselExampleIndicators2" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            </div>
+                            <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../imagenes/banio_divertido.jpg" class="d-block w-100" alt="Perro con gorrito de banio">
+                            </div>
+                            <div class="carousel-item imgPurina">
+                                <img src="../imagenes/banio2.jpeg" class="d-block img__banio" alt="Perro en una baniera">
+                            </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                            </button>
+                        </div> 
+                </div>
+<!-- Carrousel: Final-->
+
+<!-- Título e información: Comienzo-->
+            </div> 
             <div class="col-12 col-lg-6 order-lg-first">
             <div class="col-12 main__Portada__margen">
                 <h1 class="display-1 text-center text-lg-start fw-bold animate__animated animate__rubberBand "> <span class="c-naranja"> Baños </span> <span class="c-violeta"> Divertidos </span></h1>
@@ -66,18 +94,10 @@
                 <p class="text-center text-lg-start display-6" > <span class="c-violeta"> Todas las mascotas deben ser bañadas con regularidad y con productos adecuados.</span> <span class="c-naranja"> Pide tu cita cuando quieras y te esperamos con tu mascota. </span></p>
             </div>
             </section>
-<div class="container-fluid ">
-    <div class="row d-flex justify-content-center"> 
+<!-- Título e información: Final-->
 
-        <iframe class="col-12 iframePaseo main__Portada__margen iframeBanio " height="315" src="../videos/video_banio.mp4" frameborder="0"></iframe>
-
-    </div>
-
-
-
-</div>
-            <!--Section: Contact v.2-->
-<section class="mb-4">
+<!--Section: Contact v.2: Comienzo-->
+    <section class="mb-4">
 
     <!--Section heading-->
     <div class="col-12 main__Portada__margen d-flex align-items-center align-items-lg-center justify-content-center justify-content-lg-center">
@@ -172,12 +192,12 @@
         <!--Grid column-->
     </div>
 </section>
-<!--Section: Contact v.2-->
+<!--Section: Contact v.2: Final-->
             
     
     </main>
 
-    <!-- Fooooooterrrrrr -->
+    <!-- Footer: Comienzo -->
 <footer class="container-fluid footer__backGround">
     <div class="container border-bottom p-5 ">
         <div class="row c-naranja d-flex justify-content-around align-items-center">
@@ -226,6 +246,7 @@
         </div>
     </div>
 </footer>
+<!-- Footer: Final -->
 
 <script src="../javaScript/bootstrap.min.js"></script>
 <script src="../javaScript/wow.min.js"></script> 
