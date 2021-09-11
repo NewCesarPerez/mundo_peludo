@@ -126,6 +126,11 @@ footer a:visited {
   margin-bottom: 5rem;
 }
 
+.form__botones__margen {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 h1 {
   font-family: "mundo Peludo";
 }
@@ -182,7 +187,7 @@ h6 {
 }
 
 .main__carrusel {
-  width: 75%;
+  width: 100%;
   height: 40rem;
 }
 

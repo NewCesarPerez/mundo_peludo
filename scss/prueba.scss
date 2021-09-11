@@ -58,6 +58,16 @@ $mapaColores:(
     
 }
 
+@each $rem in 2rem{
+    .form__botones__margen{
+        margin-top: $rem;
+        margin-bottom: $rem;
+    }
+
+    
+}
+
+
 @for $var from 1 to 7 {
 
     h#{$var}{
@@ -109,7 +119,7 @@ $mapaColores:(
 }
 .main__carrusel{
     @extend %carrusel__bgColor__margen;
-    @include medidas__carrusel__ppl(75%,40rem);
+    @include medidas__carrusel__ppl(100%,40rem);
     
     
 }
