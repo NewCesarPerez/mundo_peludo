@@ -106,11 +106,11 @@ footer a:visited {
 }
 
 .c-naranja {
-  color: #ff9e00;
+  color: #FF9E00;
 }
 
 .bg-naranja {
-  background-color: #ff9e00;
+  background-color: #FF9E00;
 }
 
 .c-blanco {
@@ -161,7 +161,7 @@ h6 {
 }
 
 .bgBotones__naranja {
-  background-color: #ff9e00;
+  background-color: #FF9E00;
 }
 
 .botones__bordeRedondeado {
@@ -173,7 +173,7 @@ h6 {
 }
 
 .footer__backGround {
-  background: radial-gradient(#3c096c, #ff9e00);
+  background: radial-gradient(#3c096c, #FF9E00);
 }
 
 .main__carrusel, .banio__carrusel, .div__carrusel {
@@ -247,5 +247,15 @@ h6 {
   height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
+}
+
+.bg__404 {
+  background-size: auto;
+  background-image: url("../imagenes/404_1.jpg");
+}
+
+.home__404 {
+  margin-left: 43.5%;
+  margin-top: 14rem;
 }
 /*# sourceMappingURL=prueba.css.map */

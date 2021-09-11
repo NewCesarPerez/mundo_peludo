@@ -4,7 +4,7 @@
 /*......VARIABLES....*/
 
 $violeta:#3c096c;   
-$naranja:#ff9e00;
+$naranja:#FF9E00;
 $blanco: white;
 $fuenteProyecto:"mundo Peludo";
 $fuenteProyectoParrafos:"parrafos";
@@ -187,3 +187,16 @@ $mapaColores:(
 .img__banio{
     height: max-content;
 }
+
+.bg__404{
+    background-size: auto;
+    background-image: url("../imagenes/404_1.jpg");
+}
+
+.home__404{
+
+    margin-left: 43.5%;
+    margin-top: 14rem;
+}
+
+
