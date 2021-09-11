@@ -192,6 +192,15 @@ $mapaColores:(
     #copyRight{
         margin-left: 1rem;
     }
+
+    @each $rem in 0.5rem{
+        .form__botones__margen{
+            margin-top: $rem;
+            margin-bottom: $rem;
+        }
+    
+        
+    }
     
 }
 .img__banio{

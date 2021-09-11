@@ -246,6 +246,10 @@ h6 {
   #copyRight {
     margin-left: 1rem;
   }
+  .form__botones__margen {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
 }
 
 .img__banio {
